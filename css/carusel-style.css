@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.carusel-class {
+    width: 100vw;
+    height: 100vh;
+}
+
+.carusel-imgs-class img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.carusel-btns-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.carusel-btns-class div {
+    border: none;
+    background: none;
+    padding: 1em;
+    margin-top: 35em;
+}
+
+.slideActiv {
+    display: block;
+}
+
+.slideNoActiv {
+    display: none;
+}
+
+.front-catalog-style {
+    position: absolute;
+    width: 20em;
+    height: auto;
+    top: 0;
+    z-index: 1;
+    margin-left: 60em;
+    margin-top: 10em;
+    text-align: right;
+}
+
+.front-catalog-style span {
+    font-size: 3em;
+    color: white;
+    transition: 1s;
+}
+
+.front-catalog__item span:hover {
+    display: block;
+    color: tomato;
+}
+
+.front-catalog__submenu-style {
+    display: none;
+}
+
+.front-catalog__submenu-style a {
+    color: tomato;
+}
+
+.front-catalog__submenu-style a~a {
+    margin-left: 1em;
+}
+
+.front-catalog__item :hover+.front-catalog__submenu-style {
+    display: block;
+    color: tomato;
+}

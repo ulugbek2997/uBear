@@ -1,0 +1,1 @@
+let menuBtn = document.getElementById('menuBtn');
